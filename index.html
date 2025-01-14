@@ -3,41 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Milk Store</title>
+    <title>Paper & Ink - Premium Stationery</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Milk & More</h1>
+        <div class="promo-banner">
+            <p>Free Shipping on Orders Over $50 | 10% Off Selected Bundles!</p>
+        </div>
+        <h1>Paper & Ink</h1>
         <nav>
             <ul>
-                <li><a href="#products">Products</a></li>
+                <li><a href="#products">Shop</a></li>
+                <li><a href="#about">About Us</a></li>
                 <li><a href="#cart">Cart</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="welcome">
-            <h2>Welcome to Milk & More!</h2>
-            <p>Your one-stop shop for all kinds of milk. From organic to flavored, we have it all!</p>
+        <section class="hero">
+            <h2>Premium Stationery for Work, School, and Creativity</h2>
+            <p>Explore our curated collection of notebooks, pens, and art supplies.</p>
         </section>
         <section id="products">
-            <h2>Our Products</h2>
+            <h2>Our Collection</h2>
             <div class="product-list" id="product-list">
                 <!-- Products will be dynamically added here -->
             </div>
         </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>At Paper & Ink, we believe in the power of great stationery to inspire creativity and organization. Explore our premium selection and find your perfect tools today.</p>
+        </section>
         <section id="cart">
             <h2>Your Cart</h2>
-            <ul id="cart-items">
-                <!-- Cart items will be added dynamically -->
-            </ul>
+            <ul id="cart-items"></ul>
             <p>Total: $<span id="total">0.00</span></p>
             <button onclick="checkout()">Checkout</button>
         </section>
     </main>
     <footer>
-        <p>© 2025 Milk & More. All Rights Reserved.</p>
+        <p>© 2025 Paper & Ink. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
 </body>
