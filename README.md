@@ -1,0 +1,1 @@
+This sample website is to test out Anthropic's computer use.
